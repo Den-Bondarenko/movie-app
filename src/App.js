@@ -28,11 +28,8 @@ function App() {
   console.log(term);
   return (
     <div className="App">
-      <div className='serchNav'>
-        <h1>Movies</h1>
-      </div>
-
-      <div>
+      <div className='searchNav'>
+        <h1 className='title'>Movies</h1>
         <form onSubmit={handleSearch}>
           <input onChange={(e) => setTerm(e.target.value)}/>
           <button>Search</button>

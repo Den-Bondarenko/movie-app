@@ -1,4 +1,5 @@
 .card{
+    background-color: #31465e;
     width: 15rem;
     margin-right: 1.5rem;
     margin-bottom: 1.5rem;
@@ -6,4 +7,10 @@
 
 .poster img {
     width: 15rem;
-};
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem;
+}

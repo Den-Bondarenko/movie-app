@@ -1,9 +1,26 @@
 *{
+    font-family: sans-serif;
     padding: 0;
     margin: 0;
 }
+
+.App {
+    background-color: #142333;
+    padding: 1.5rem;
+}
+
+.searchNav {
+    background-color: #183352;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+}
+
 .movies {
     display: flex;
     flex-wrap: wrap;
-
+    max-width: 1200px;
+    justify-content: space-around;
+    padding: 1rem;
 }
